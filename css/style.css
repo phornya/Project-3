@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    display: block;
+    background: blue;
+    padding: 16px 18px;
+    text-align: center;
+    font-size: 20px;
+}
+a{
+    padding: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+a:hover{
+    color: rgb(228, 240, 5);
+    transform: translateY(0.3s);
+    font-size: 30px;
+}
+.out_box{
+    background-color: orange;
+    padding: 200px 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.in{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+}
+.out{
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
